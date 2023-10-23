@@ -1,0 +1,30 @@
+:root {
+    --color-principal: #cb211b;
+    --color-basico: #ffffff;
+    --tamaño-letra-titulo: 30px;
+}
+
+.menu {
+    background-color: var(--color-principal);
+    position: fixed;
+
+}
+.nav-ul-li-a {
+    color: var(--color-basico);
+    display: block;
+    font-size: var(--tamaño-letra-titulo);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: var(--color-principal);
+}
+
+.letra-footer {
+    color: var(--color-basico);
+    font-size: var(--tamaño-letra-titulo);
+}
